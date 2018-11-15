@@ -1,2 +1,2 @@
 # CSS_Themes
-A simple project regrouping some CSS theme and IU component made by myself
+A simple project regrouping some CSS themes and IU components I made.
