@@ -1,0 +1,40 @@
+@font-face {
+    font-family: myFont;
+    src: url(../font/LoveYaLikeASister.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #32393d;
+}
+
+header {
+    margin: 0;
+    padding: 100px;;
+
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 0 0 20px white;
+
+    font-family: myFont;
+    color: #bdbdbd;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
