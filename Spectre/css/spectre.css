@@ -225,7 +225,7 @@
 	transform: translateY(-2px);
 	font-size: 20px;
 	padding: 12px;
-	
+	outline: none;
 }
 
 .button-spectre:hover {
