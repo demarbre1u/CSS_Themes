@@ -232,5 +232,5 @@
 	animation-name: button-spectre-hover;
 	animation-duration: 1s;
 	animation-iteration-count: infinite; 
-	
+	cursor: pointer;
 }
