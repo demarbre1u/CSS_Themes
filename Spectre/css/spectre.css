@@ -200,3 +200,37 @@
 }
 
 /* Button */
+
+@keyframes button-spectre-hover {
+	0% {
+		transform: translateY(-2px);
+		background-color: #373737;
+	}
+	50% {
+		transform: translateY(-4px);
+		background-color: #464646;
+	}
+	100% {
+		transform: translateY(-2px);
+		background-color: #373737;;
+	}
+}
+
+.button-spectre {
+	background-color: #373737;
+	box-shadow: grey 2px 2px 2px;
+	color: white;
+	border: 2px solid #373737;
+	border-radius: 5px;
+	transform: translateY(-2px);
+	font-size: 20px;
+	padding: 12px;
+	
+}
+
+.button-spectre:hover {
+	animation-name: button-spectre-hover;
+	animation-duration: 1s;
+	animation-iteration-count: infinite; 
+	
+}
