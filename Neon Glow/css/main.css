@@ -1,3 +1,8 @@
+@font-face {
+    font-family: neonFont;
+    src: url(../font/Clip.ttf);
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -18,4 +23,48 @@ body {
     height: 100%;
 
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), #272629);
+
+    display: flex;
+}
+
+#title {
+    margin: auto;
+    font-size: 10vw;
+}
+
+.neon {
+    font-family: neonFont;
+
+    color: #272629;
+    text-shadow: 10px 10px 10px #272629;
+
+    transition: color 80ms, text-shadow 80ms;
+}
+
+.red-glow {
+    color: #fff;
+    text-shadow: 2px 2px 2px #272629, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+    
+    transition: color 80ms, text-shadow 80ms;
+}
+
+.blue-glow {
+    color: #fff;
+    text-shadow: 2px 2px 2px #272629, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0BDEFF, 0 0 70px #0BDEFF, 0 0 80px #0BDEFF, 0 0 100px #0BDEFF, 0 0 150px #0BDEFF;
+    
+    transition: color 80ms, text-shadow 80ms;
+}
+
+.green-glow {
+    color: #fff;
+    text-shadow: 2px 2px 2px #272629, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #3AFF15, 0 0 70px #3AFF15, 0 0 80px #3AFF15, 0 0 100px #3AFF15, 0 0 150px #3AFF15;
+    
+    transition: color 80ms, text-shadow 80ms;
+}
+
+.yellow-glow {
+    color: #fff;
+    text-shadow: 2px 2px 2px #272629, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #EFF650, 0 0 70px #EFF650, 0 0 80px #EFF650, 0 0 100px #EFF650, 0 0 150px #EFF650;
+    
+    transition: color 80ms, text-shadow 80ms;
 }
