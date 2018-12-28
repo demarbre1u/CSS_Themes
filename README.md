@@ -6,7 +6,7 @@ A project regrouping some CSS themes and UI components I made.
 
 __Themes :__
 - **Spectre** : [here](https://demarbre1u.github.io/CSS_Themes/Spectre/)
-- **Neon Glow** : WIP
+- **Neon Glow** : [here](https://demarbre1u.github.io/CSS_Themes/NeonGlow/) (WIP)
 
 __UI Components :__
 - ...
