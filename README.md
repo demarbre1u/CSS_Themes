@@ -6,9 +6,12 @@ A project regrouping some CSS themes and UI components I made.
 
 __Themes :__
 - **Spectre** : [here](https://demarbre1u.github.io/CSS_Themes/Spectre/)
-- **Neon Glow** : [here](https://demarbre1u.github.io/CSS_Themes/NeonGlow/) (WIP)
+- ...
+
 
 __UI Components :__
+- **Neon Glow** : [here](https://demarbre1u.github.io/CSS_Themes/NeonGlow/) (WIP)
+- **Manoir** : [here](https://demarbre1u.github.io/CSS_Themes/Manoir/) (WIP)
 - ...
 
 Eventually more themes & components will be added.
