@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*****************************************************************
+ *  Card classes
+ *****************************************************************/
+
+.card {
+    border-radius: 5px;
+    color: white;
+    display: block;
+    width: 400px;
+    padding: 20px;
+    
+    
+    clip-path: circle(10% at calc(100% - 35px) 37px);
+    
+    transition: clip-path 750ms;
+}
+
+.card h1 {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Roboto Condensed Bold', arial;
+}
+
+.card h1 span {
+    margin-right: 10px;
+
+    transition: color 300ms;
+}
+
+.card span {
+    margin: 0;
+    padding: 0;
+}
+
+.card:hover  {
+    clip-path: circle(100%);
+}
+
+.card:hover h1 span {
+    color: transparent;
+}
+
+/*****************************************************************
+ *  Colors
+ *****************************************************************/
+
+.success {
+    background-color: #2ecc71;
+}
+
+.info {
+    background-color: #03A9F4;
+}
+
+.warn {
+    background-color: #e67e22;
+}
+
+.danger {
+    background-color: #c0392b;
+}
+
+.dark {
+    background-color: #2c3e50;
+}
