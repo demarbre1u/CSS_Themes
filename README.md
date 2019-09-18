@@ -12,6 +12,7 @@ __Themes :__
 __UI Components :__
 - **Neon Glow** : [here](https://demarbre1u.github.io/CSS_Themes/NeonGlow/) (WIP)
 - **Manoir** : [here](https://demarbre1u.github.io/CSS_Themes/Manoir/)
+- **Clip-path cards** : [here](https://demarbre1u.github.io/CSS_Themes/ClipPathCards/)
 - ...
 
 Eventually more themes & components will be added.
