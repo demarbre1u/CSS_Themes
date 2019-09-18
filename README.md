@@ -1,4 +1,4 @@
-# CSS_Themes
+# CSS Themes & UI Components
 
 A project regrouping some CSS themes and UI components I made.
 
